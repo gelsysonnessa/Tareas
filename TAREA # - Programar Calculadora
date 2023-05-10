@@ -1,0 +1,27 @@
+  # EJERCICIO: Hacer un programa que sume dos números y asegurar que el texto que ingrese el usuario se pueda transformar a número.
+
+print("Hola, usuario intergaláctico. Bienvenido a la calculadora pro")
+
+numero1 = input(("Ingresa el primer número entero: "))
+
+if numero1.isnumeric() == False:
+   print("Ups, al parecer no ingresaste un número. Asegúrate de escribir un número entero")
+if numero1.isnumeric() == False:
+    numero1 = input(("Ingresa nuevamente el primer número entero: "))
+else:
+    print("Número =", numero1)
+ 
+numero1 = int(numero1) 
+
+numero2 = input(("Ingresa el segundo número entero: "))
+
+if numero2.isnumeric() == False:
+   print("Ups, al parecer no ingresaste un número. Asegúrate de escribir un número entero")
+if numero2.isnumeric() == False:
+    numero2 = input(("Ingresa nuevamente el segundo número entero: "))
+else:
+    print("Número =", numero2)
+
+numero2 = int(numero2) 
+
+print("El resultado de tu suma es:", numero1, "+", numero2, "=", numero1 + numero2)
