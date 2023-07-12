@@ -17,7 +17,7 @@ while Ld > 0:
         L += posicion
         dias += 1 # --> 24 horas
     
-    if L >= H:
+    if L + Ld >= H:
         break
         
 print("El caracol tardó",dias,"días en salir del pozo") 
