@@ -16,7 +16,7 @@ while Ld > 0:
     if posicion > 0:
         L += posicion
         dias += 1 # --> 24 horas
-    
+        
     if L + Ld >= H:
         break
         
