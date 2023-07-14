@@ -8,7 +8,7 @@ posicion = Ld - Ln
 L = 0
 dias = 0
 
-if posicion < 0:
+if posicion <= 0:
     print("El caracol nunca saldrá del pozo :(")
     
 while Ld > 0:
